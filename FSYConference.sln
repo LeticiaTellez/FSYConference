@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSYConference.WebApi", "FSYConference.WebApi\FSYConference.WebApi.csproj", "{D191106B-C515-4F50-9504-695AC1EE0C28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSYConference.Data", "FSYConference.Data\FSYConference.Data.csproj", "{3AE8CA66-8EA7-4123-A576-8AD4EDAF87E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D191106B-C515-4F50-9504-695AC1EE0C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D191106B-C515-4F50-9504-695AC1EE0C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D191106B-C515-4F50-9504-695AC1EE0C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D191106B-C515-4F50-9504-695AC1EE0C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE8CA66-8EA7-4123-A576-8AD4EDAF87E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE8CA66-8EA7-4123-A576-8AD4EDAF87E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE8CA66-8EA7-4123-A576-8AD4EDAF87E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE8CA66-8EA7-4123-A576-8AD4EDAF87E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CDAD2DF-5397-47B5-9839-1FB1F84ACF78}
+	EndGlobalSection
+EndGlobal

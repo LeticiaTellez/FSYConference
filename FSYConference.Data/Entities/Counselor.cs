@@ -14,5 +14,11 @@
         public int RoomId { get; set; }
         public bool Status { get; set; }
 
+        public Stake Stake { get; set; }
+        public Ward Ward { get; set; }
+        public Room? Room { get; set; }
+        public ICollection<Company> Companies { get; } = new List<Company>();
+        public ICollection<MeetingAttendances> MeetingAttendances { get; } = new List<MeetingAttendances>();
+
     }
 }

@@ -6,5 +6,7 @@
         public int ParticipantId { get; set; }
         public float Amount { get; set; }
         public DateTime Date { get; set; }
+
+        public Participant Participant { get; set; }
     }
 }

@@ -4,5 +4,7 @@
     {
         public int Id { get; set; }
         public DateTime Date { get; set; }
+
+        public ICollection<MeetingAttendances> MeetingAttendances { get; } = new List<MeetingAttendances>();
     }
 }
